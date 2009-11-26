@@ -1,0 +1,29 @@
+textarea {
+    height: 30em;
+    width: 50em;
+    border: 1px solid black;
+    display: block;
+    margin: 0px auto 20px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+form {
+    text-align: center;
+    display: block;
+}
+
+input, select {
+    border: 1px solid black;
+}
+
+.codigo {
+    border: 1px solid black;
+    width: 30em;
+    min-height: 10em;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+

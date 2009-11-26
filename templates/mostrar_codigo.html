@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="codigo">
+  {{ codigo.converter_pra_html() }}
+</div>
+
+<a href="/?codigo_origem={{codigo.id}}">responder</a>
+<a href="/">novo paste</a>
+{% endblock %}

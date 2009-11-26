@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>PasteBin</h1>
+<form action="paste" method="POST">
+  <textarea name="codigo">{{texto}}</textarea>
+  <input type="submit" name="enviar" value="enviar" />
+  <select name="tipo">
+    <option value="text">Texto</option>
+    <option value="python">Python</option>
+  </select>
+</form>
+{% endblock %}
